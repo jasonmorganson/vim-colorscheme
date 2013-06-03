@@ -12,12 +12,12 @@
 " by Hamish Stuart Macpherson
 "
 
-let g:colors_name="jason"
 
 hi clear
 syntax reset
 set background=dark
 
+let g:colors_name="jason"
 
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
