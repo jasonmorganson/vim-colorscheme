@@ -16,6 +16,7 @@
 hi clear
 syntax reset
 set t_Co=256
+set t_ut=
 set background=dark
 
 let g:colors_name="jason"
