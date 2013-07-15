@@ -78,10 +78,10 @@ hi SpecialComment  ctermfg=245             guifg=#465457               cterm=bol
 hi Special         ctermfg=81  ctermbg=232 guifg=#66D9EF guibg=bg      gui=italic
 hi SpecialKey      ctermfg=245             guifg=#888A85               gui=italic
 
-hi SpellBad    guisp=#FF0000 gui=undercurl
-hi SpellCap    guisp=#7070F0 gui=undercurl
-hi SpellLocal  guisp=#70F0F0 gui=undercurl
-hi SpellRare   guisp=#FFFFFF gui=undercurl
+hi SpellBad                                                            guisp=#FF0000 gui=undercurl
+hi SpellCap                                                            guisp=#7070F0 gui=undercurl
+hi SpellLocal                                                          guisp=#70F0F0 gui=undercurl
+hi SpellRare                                                           guisp=#FFFFFF gui=undercurl
 
 hi Statement       ctermfg=161             guifg=#F92672               cterm=bold gui=bold
 hi StatusLine      ctermfg=238 ctermbg=253 guifg=#455354 guibg=fg
