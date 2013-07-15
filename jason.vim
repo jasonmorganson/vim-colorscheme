@@ -32,9 +32,9 @@ hi Debug           ctermfg=255             guifg=#BCA3A3               cterm=bol
 hi Define          ctermfg=81              guifg=#66D9EF
 hi Delimiter       ctermfg=241             guifg=#8F8F8F
 
-hi DiffAdd                     ctermbg=24                guibg=#13354A
-hi DiffChange      ctermfg=181 ctermbg=239 guifg=#89807D guibg=#4C4745
-hi DiffDelete      ctermfg=162 ctermbg=52  guifg=#960050 guibg=#1E0010
+hi DiffAdd         ctermfg=2   ctermbg=233               guibg=#13354A cterm=bold
+hi DiffChange      ctermfg=178 ctermbg=233 guifg=#89807D guibg=#4C4745
+hi DiffDelete      ctermfg=1   ctermbg=233 guifg=#960050 guibg=#1E0010 cterm=bold
 hi DiffText                    ctermbg=102 guibg=#4C4745               cterm=italic,bold gui=italic,bold
 
 hi Directory       ctermfg=118             guifg=#A6E22E               gui=bold
@@ -42,7 +42,7 @@ hi Error           ctermfg=219 ctermbg=89  guifg=#960050 guibg=#1E0010
 hi ErrorMsg        ctermfg=199 ctermbg=16  guifg=#F92672 guibg=#232526 cterm=bold gui=bold
 hi Exception       ctermfg=118             guifg=#A6E22E               gui=bold
 hi Float           ctermfg=135             guifg=#AE81FF
-hi FoldColumn      ctermfg=67  ctermbg=16  guifg=#465457 guibg=#000000
+hi FoldColumn      ctermfg=67  ctermbg=233 guifg=#465457 guibg=#000000
 hi Folded          ctermfg=67  ctermbg=16  guifg=#465457 guibg=#000000
 hi Function        ctermfg=118             guifg=#A6E22E
 hi Identifier      ctermfg=208             guifg=#FD971F
@@ -72,16 +72,16 @@ hi Repeat          ctermfg=161             guifg=#F92672               cterm=bol
 hi Search          ctermfg=253 ctermbg=66  guifg=#FFFFFF guibg=#455354
 
 " marks column
-hi SignColumn      ctermfg=118 ctermbg=235 guifg=#A6E22E guibg=#232526
+hi SignColumn      ctermfg=118 ctermbg=233 guifg=#A6E22E guibg=#232526
 hi SpecialChar     ctermfg=161             guifg=#F92672               cterm=bold gui=bold
 hi SpecialComment  ctermfg=245             guifg=#465457               cterm=bold gui=bold
 hi Special         ctermfg=81  ctermbg=232 guifg=#66D9EF guibg=bg      gui=italic
 hi SpecialKey      ctermfg=245             guifg=#888A85               gui=italic
 
-hi SpellBad                                                            guisp=#FF0000 gui=undercurl
-hi SpellCap                                                            guisp=#7070F0 gui=undercurl
-hi SpellLocal                                                          guisp=#70F0F0 gui=undercurl
-hi SpellRare                                                           guisp=#FFFFFF gui=undercurl
+hi SpellBad        ctermfg=160                                         guisp=#FF0000 cterm=underline gui=undercurl
+hi SpellCap        ctermfg=160                                         guisp=#7070F0 cterm=underline gui=undercurl
+hi SpellLocal      ctermfg=160                                         guisp=#70F0F0 cterm=underline gui=undercurl
+hi SpellRare       ctermfg=160                                         guisp=#FFFFFF cterm=underline gui=undercurl
 
 hi Statement       ctermfg=161             guifg=#F92672               cterm=bold gui=bold
 hi StatusLine      ctermfg=238 ctermbg=253 guifg=#455354 guibg=fg
@@ -106,6 +106,10 @@ hi Normal          ctermfg=252 ctermbg=233 guifg=#F8F8F2 guibg=#1B1D1E
 hi Comment         ctermfg=59              guifg=#465457
 hi CursorLine                  ctermbg=234               guibg=#293739
 hi CursorColumn                ctermbg=234               guibg=#293739
+hi ColorColumn                 ctermbg=160
 hi LineNr          ctermfg=250 ctermbg=234 guifg=#BCBCBC guibg=#232526
 hi NonText         ctermfg=250 ctermbg=234 guifg=#BCBCBC guibg=#232526
 
+hi Conceal                     ctermbg=none              guibg=none    cterm=italic gui=italic
+hi IndentGuidesOdd             ctermbg=235
+hi IndentGuidesEven            ctermbg=234
