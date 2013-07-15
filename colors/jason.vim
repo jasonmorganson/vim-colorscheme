@@ -104,7 +104,7 @@ hi WildMenu        ctermfg=81  ctermbg=16  guifg=#66D9EF guibg=#000000
 
 hi Normal          ctermfg=252 ctermbg=233 guifg=#F8F8F2 guibg=#1B1D1E
 hi Comment         ctermfg=59              guifg=#465457
-hi CursorLine                  ctermbg=234               guibg=#293739
+hi CursorLine                  ctermbg=234               guibg=#293739 cterm=none
 hi CursorColumn                ctermbg=234               guibg=#293739
 hi ColorColumn                 ctermbg=160
 hi LineNr          ctermfg=250 ctermbg=234 guifg=#BCBCBC guibg=#232526
