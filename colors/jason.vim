@@ -14,7 +14,8 @@
 " Based on the monokai theme for textmate
 " by Wimer Hazenberg and its darker variant
 " by Hamish Stuart Macpherson
-"
+" with extra colors borrowed from mango theme
+" by Josh Perez
 
 
 hi clear
@@ -24,6 +25,7 @@ set t_ut=
 set background=dark
 
 let g:colors_name="jason"
+
 
 " VIM GUI elements {
 "
@@ -137,6 +139,8 @@ hi Structure       ctermfg=81              guifg=#66D9EF
 hi Tag             ctermfg=161             guifg=#F92672               gui=italic
 hi Todo            ctermfg=231 ctermbg=232 guifg=#FFFFFF guibg=bg      cterm=bold gui=bold
 
+hi Conceal                     ctermbg=NONE              guibg=NONE
+
 " }
 
 " Debug {
@@ -146,6 +150,110 @@ hi Exception       ctermfg=118             guifg=#A6E22E               gui=bold
 hi Ignore          ctermfg=244 ctermbg=232 guifg=#808080 guibg=bg
 " }
 
-hi Conceal                     ctermbg=none              guibg=none    cterm=italic gui=italic
-hi IndentGuidesOdd             ctermbg=235
-hi IndentGuidesEven            ctermbg=234
+" Diff highlighting {
+hi DiffAdd         ctermfg=2   ctermbg=233               guibg=#13354A cterm=bold
+hi DiffChange      ctermfg=178 ctermbg=233 guifg=#89807D guibg=#4C4745
+hi DiffDelete      ctermfg=1   ctermbg=233 guifg=#960050 guibg=#1E0010 cterm=bold
+hi DiffText                    ctermbg=102 guibg=#4C4745               cterm=italic,bold gui=italic,bold
+hi link DiffAdded DiffAdd
+hi link DiffFile DiffText
+hi link DiffNewFile DiffFile
+hi link DiffLine DiffText
+hi link DiffRemoved DiffDelete
+" }
+
+" HTML {
+"htmlBold
+"htmlItalic
+"htmlEndTag
+"htmlTag
+" }
+
+" CSS {
+"cssBraces
+"cssClassName
+"cssColor
+" }
+
+" SASS {
+"sassidChar
+"sassClassChar
+"sassInclude
+"sassMixing
+"sassMixinName
+" }
+
+" JavaScript {
+
+
+
+
+
+
+hi jsVar      ctermfg=205 ctermbg=NONE guifg=#ff5faf guibg=NONE cterm=NONE gui=NONE
+hi jsNew      ctermfg=208 ctermbg=NONE guifg=#FD971F guibg=NONE cterm=bold gui=bold
+hi jsThis     ctermfg=161 ctermbg=NONE guifg=#F92672 guibg=NONE cterm=bold gui=bold
+hi jsSelf     ctermfg=161 ctermbg=NONE guifg=#F92672 guibg=NONE cterm=bold gui=bold
+hi jsReturn   ctermfg=161 ctermbg=NONE guifg=#F92672 guibg=NONE cterm=bold gui=bold
+hi jsFunction ctermfg=161 ctermbg=NONE guifg=#F92672 guibg=NONE cterm=bold gui=bold
+hi jsThrow    ctermfg=160 ctermbg=NONE guifg=#FF0000 guibg=NONE cterm=bold gui=bold
+
+hi jsBraces        guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
+hi jsParens        guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
+hi jsEndColons     guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
+hi jsPrototype     guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
+hi jsDotNotation   guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
+hi jsFunctionComma guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
+
+hi jsTrue      guifg=#87af5f guibg=NONE gui=NONE ctermfg=107 ctermbg=NONE cterm=NONE
+hi jsFalse     guifg=#ff5f5f guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
+
+hi jsIncrement guifg=#87af5f guibg=NONE gui=NONE ctermfg=107 ctermbg=NONE cterm=NONE
+hi jsDecrement guifg=#ff5f5f guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
+
+hi jsEqual        guifg=#87af5f guibg=NONE gui=NONE ctermfg=107 ctermbg=NONE cterm=NONE
+hi jsNotEqual     guifg=#ff5f5f guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
+hi jsComparisions guifg=#ffaf00 guibg=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE
+hi jsAssignment   guifg=#ffd787 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
+
+hi jsTryCatchFinally guifg=#ff5f5f guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
+
+hi jsConstant ctermfg=135 ctermbg=NONE guifg=#AE81FF guibg=NONE cterm=bold gui=bold
+hi jsConstructor guifg=#ffaf00 guibg=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE
+
+hi link jsWith Error
+hi link jsBadComparision Error
+
+" }
+
+" Ruby {
+"rubyAttribute
+"rubyConstant
+"rubyInterpolation
+"rubyInterpolationDelimiter
+"rubyRegexp
+"rubySymbol
+"rubyStringDelimiter
+" }
+
+" PHP {
+"phpMemberSelector
+"phpComparison
+"phpParent
+" }
+
+" Markdown {
+"markdownCode
+"markdownCodeBlock
+"markdownHeadingDelimiter
+" }
+
+" Git highlighting {
+"gitCommitOverflow
+"gitCommitSummary
+" }
+
+" NERDTree {
+"NERDTreeDirSlash
+"NERDTreeExecFile
+" }
