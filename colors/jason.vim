@@ -26,6 +26,7 @@ set background=dark
 
 let g:colors_name="jason"
 
+runtime! colors/term256colors.vim colors/flatcolors.vim
 
 " VIM GUI elements {
 "
