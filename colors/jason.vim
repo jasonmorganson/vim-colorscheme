@@ -105,7 +105,6 @@ hi SpellRare       ctermfg=160                                         guisp=#FF
 
 hi Character       ctermfg=144             guifg=#E6DB74
 
-hi MatchParen      ctermfg=161 ctermbg=208 guifg=#000000 guibg=#FD971F cterm=bold gui=bold
 
 hi Boolean         ctermfg=135             guifg=#AE81FF
 hi Number          ctermfg=135             guifg=#AE81FF
@@ -129,6 +128,8 @@ hi Conditional     ctermfg=161             guifg=#F92672               gui=bold
 " }
 
 " Misc {
+
+hi MatchParen      ctermfg=161 ctermbg=208 guifg=#000000 guibg=#FD971F cterm=bold gui=bold
 
 hi Label           ctermfg=229             guifg=#E6DB74               cterm=none gui=none
 hi Macro           ctermfg=193             guifg=#C4BE89               gui=italic
