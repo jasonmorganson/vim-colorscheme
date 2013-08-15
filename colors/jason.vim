@@ -16,6 +16,8 @@
 " by Hamish Stuart Macpherson
 " with extra colors borrowed from mango theme
 " by Josh Perez
+" Updated with FlatUI colors from flatuicolors.com
+
 
 
 hi clear
@@ -112,21 +114,20 @@ hi Boolean         ctermfg=135             guifg=#AE81FF
 hi link Number Boolean
 hi link Float Boolean
 
+hi! link Type PeterRiver
 hi link Typedef Type
 hi link Define Type
 
-hi Type            ctermfg=81              guifg=#66D9EF               cterm=none gui=none
 hi Comment         ctermfg=59              guifg=#465457
-hi Constant        ctermfg=135             guifg=#AE81FF               gui=bold
+hi! link Constant Wisteria
 hi Keyword         ctermfg=161             guifg=#F92672               cterm=bold gui=bold
-hi Function        ctermfg=118             guifg=#A6E22E
-hi Statement       ctermfg=161             guifg=#F92672               cterm=bold gui=bold
+hi link Function BelizeHole
+hi! link Statement Emerald
 
 hi Operator        ctermfg=161             guifg=#F92672
 hi Delimiter       ctermfg=241             guifg=#8F8F8F
 hi Identifier      ctermfg=208             guifg=#FD971F
-hi Conditional     ctermfg=161             guifg=#F92672               gui=bold
-
+hi link Conditional Nephritis
 hi link Repeat Conditional
 " }
 
@@ -140,7 +141,7 @@ hi Macro           ctermfg=193             guifg=#C4BE89               gui=itali
 hi PreCondit       ctermfg=118             guifg=#A6E22E               cterm=bold gui=bold
 hi PreProc         ctermfg=118             guifg=#A6E22E
 
-hi StorageClass    ctermfg=208             guifg=#FD971F               gui=italic
+hi link StorageClass Orange
 hi Structure       ctermfg=81              guifg=#66D9EF
 hi Tag             ctermfg=161             guifg=#F92672               gui=italic
 hi Todo            ctermfg=231 ctermbg=232 guifg=#FFFFFF guibg=bg      cterm=bold gui=bold
@@ -199,6 +200,10 @@ hi link jsWith Error
 hi link jsBadComparision Error
 
 hi link jsVar StorageClass
+hi link jsNew SunFlower
+hi link jsGlobalObjects Amethyst
+hi link jsConstructor Carrot
+hi link jsFuncArgs GreenSea
 
 hi link jsThis Emphasised
 hi link jsSelf Emphasised
