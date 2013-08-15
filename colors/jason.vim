@@ -89,6 +89,9 @@ hi Normal          ctermfg=252 ctermbg=233 guifg=#F8F8F2 guibg=#1B1D1E
 hi NonText         ctermfg=250 ctermbg=234 guifg=#BCBCBC guibg=#232526
 hi Underlined      ctermfg=244             guifg=#808080               cterm=underline gui=underline
 hi SpecialKey      ctermfg=245             guifg=#888A85               gui=italic
+hi Muted ctermfg=240 guifg=#585858
+hi Emphasised ctermfg=161 guifg=#F92672 cterm=bold gui=bold
+hi link Noise Muted
 " }
 
 " Spelling {
