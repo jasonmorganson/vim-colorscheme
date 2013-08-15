@@ -18,8 +18,6 @@ syntax keyword jsSource          import export
 syntax keyword jsCommonJS        require module exports
 syntax keyword jsTryCatchFinally try catch finally
 
-syntax cluster jsExpression add=jsVar,jsNew,jsSelf,jsTrue,jsFalse,jsWith,jsThrow,jsSource,jsCommonJS,jsTryCatchFinally
-
 syntax match jsComparisions   "<\|>\|>=\|<="
 syntax match jsIncrement      "++\|+="
 syntax match jsDecrement      "--\|-="
@@ -37,4 +35,4 @@ syntax match   jsConstant           /\<\u\+[A-Z0-9_]*\>/ display
 " Constructor (assume CammelCase)
 syntax match   jsConstructor        /\<\u\l\+\k*\>/ display
 
-syntax cluster jsIdent              contains=jsIdentName,jsConstant,jsConstructor
+syntax cluster jsExpression add=jsConstant,jsConstructor,jsVar,jsNew,jsSelf,jsTrue,jsFalse,jsWith,jsThrow,jsSource,jsCommonJS,jsTryCatchFinally
