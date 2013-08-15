@@ -27,12 +27,10 @@ syntax match jsEqual          "==="
 syntax match jsNotEqual       "!=="
 syntax match jsLogicSymbols   "\(&&\)\|\(||\)"
 
-"" Idents
-" Identifier (keywords take precedence so they are already filtered)
-syntax match   jsIdentName          /\<\k\+\>/ display
-" Const (ie: CONST_NAME)
+" Constant (CONST_NAME)
 syntax match   jsConstant           /\<\u\+[A-Z0-9_]*\>/ display
-" Constructor (assume CammelCase)
+
+" Constructor (CammelCase)
 syntax match   jsConstructor        /\<\u\l\+\k*\>/ display
 
 syntax cluster jsExpression add=jsConstant,jsConstructor,jsVar,jsNew,jsSelf,jsTrue,jsFalse,jsWith,jsThrow,jsSource,jsCommonJS,jsTryCatchFinally
