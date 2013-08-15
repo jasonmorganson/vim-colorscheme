@@ -104,16 +104,17 @@ hi SpellRare       ctermfg=160                                         guisp=#FF
 " Standard {
 
 hi Character       ctermfg=144             guifg=#E6DB74
+hi link String Character
 
 
 hi Boolean         ctermfg=135             guifg=#AE81FF
-hi Number          ctermfg=135             guifg=#AE81FF
-hi Float           ctermfg=135             guifg=#AE81FF
-hi String          ctermfg=144             guifg=#E6DB74
+hi link Number Boolean
+hi link Float Boolean
+
+hi link Typedef Type
+hi link Define Type
 
 hi Type            ctermfg=81              guifg=#66D9EF               cterm=none gui=none
-hi Typedef         ctermfg=81              guifg=#66D9EF
-hi Define          ctermfg=81              guifg=#66D9EF
 hi Comment         ctermfg=59              guifg=#465457
 hi Constant        ctermfg=135             guifg=#AE81FF               gui=bold
 hi Keyword         ctermfg=161             guifg=#F92672               cterm=bold gui=bold
@@ -125,6 +126,7 @@ hi Delimiter       ctermfg=241             guifg=#8F8F8F
 hi Identifier      ctermfg=208             guifg=#FD971F
 hi Conditional     ctermfg=161             guifg=#F92672               gui=bold
 
+hi link Repeat Conditional
 " }
 
 " Misc {
@@ -136,7 +138,6 @@ hi Macro           ctermfg=193             guifg=#C4BE89               gui=itali
 
 hi PreCondit       ctermfg=118             guifg=#A6E22E               cterm=bold gui=bold
 hi PreProc         ctermfg=118             guifg=#A6E22E
-hi Repeat          ctermfg=161             guifg=#F92672               cterm=bold gui=bold
 
 hi StorageClass    ctermfg=208             guifg=#FD971F               gui=italic
 hi Structure       ctermfg=81              guifg=#66D9EF
@@ -191,23 +192,22 @@ hi link DiffRemoved DiffDelete
 
 
 
+hi link jsConstant Constant
 
+hi link jsWith Error
+hi link jsBadComparision Error
 
+hi link jsVar StorageClass
 
-hi jsVar      ctermfg=205 ctermbg=NONE guifg=#ff5faf guibg=NONE cterm=NONE gui=NONE
-hi jsNew      ctermfg=208 ctermbg=NONE guifg=#FD971F guibg=NONE cterm=bold gui=bold
-hi jsThis     ctermfg=161 ctermbg=NONE guifg=#F92672 guibg=NONE cterm=bold gui=bold
-hi jsSelf     ctermfg=161 ctermbg=NONE guifg=#F92672 guibg=NONE cterm=bold gui=bold
-hi jsReturn   ctermfg=161 ctermbg=NONE guifg=#F92672 guibg=NONE cterm=bold gui=bold
-hi jsFunction ctermfg=161 ctermbg=NONE guifg=#F92672 guibg=NONE cterm=bold gui=bold
+hi link jsThis Emphasised
+hi link jsSelf Emphasised
+
+hi link jsPrototype Noise
+hi link jsDotNotation Noise
+hi link jsFuncParens Noise
+hi link jsFuncArgCommas Noise
+
 hi jsThrow    ctermfg=160 ctermbg=NONE guifg=#FF0000 guibg=NONE cterm=bold gui=bold
-
-hi jsBraces        guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
-hi jsParens        guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
-hi jsEndColons     guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
-hi jsPrototype     guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
-hi jsDotNotation   guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
-hi jsFunctionComma guifg=#585858 guibg=NONE gui=NONE ctermfg=240 ctermbg=NONE cterm=NONE
 
 hi jsTrue      guifg=#87af5f guibg=NONE gui=NONE ctermfg=107 ctermbg=NONE cterm=NONE
 hi jsFalse     guifg=#ff5f5f guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
@@ -222,11 +222,6 @@ hi jsAssignment   guifg=#ffd787 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cte
 
 hi jsTryCatchFinally guifg=#ff5f5f guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
 
-hi jsConstant ctermfg=135 ctermbg=NONE guifg=#AE81FF guibg=NONE cterm=bold gui=bold
-hi jsConstructor guifg=#ffaf00 guibg=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE
-
-hi link jsWith Error
-hi link jsBadComparision Error
 
 " }
 
