@@ -14,9 +14,6 @@ syntax keyword jsTrue            true
 syntax keyword jsFalse           false
 syntax keyword jsWith            with
 syntax keyword jsThrow           throw
-syntax keyword jsConst           const
-syntax keyword jsUndefined       undefined
-syntax keyword jsType            void yield
 syntax keyword jsSource          import export
 syntax keyword jsCommonJS        require module exports
 syntax keyword jsTryCatchFinally try catch finally
@@ -29,17 +26,6 @@ syntax match jsBadComparision "==\|!="
 syntax match jsEqual          "==="
 syntax match jsNotEqual       "!=="
 syntax match jsLogicSymbols   "\(&&\)\|\(||\)"
-
-syntax match jsBraces display "[{}\[\]]"
-syntax match jsParens display "[()]"
-syntax match jsEndColons    "[;,]"
-
-syntax match jsDotNotation   "\." nextgroup=jsPrototype,jsDomElemAttrs,jsDomElemFuncs,jsHtmlElemAttrs,jsHtmlElemFuncs
-syntax match jsFunctionComma /,/ contained
-
-
-syntax match  javaScriptFuncArg "\(([^()]*)\)" contains=javaScriptParens,javaScriptFuncComma contained
-
 
 "" Idents
 " Identifier (keywords take precedence so they are already filtered)
