@@ -18,6 +18,8 @@ syntax keyword jsSource          import export
 syntax keyword jsCommonJS        require module exports
 syntax keyword jsTryCatchFinally try catch finally
 
+syntax cluster jsExpression add=jsVar,jsNew,jsSelf,jsTrue,jsFalse,jsWith,jsThrow,jsSource,jsCommonJS,jsTryCatchFinally
+
 syntax match jsComparisions   "<\|>\|>=\|<="
 syntax match jsIncrement      "++\|+="
 syntax match jsDecrement      "--\|-="
