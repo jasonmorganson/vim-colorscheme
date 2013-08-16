@@ -21,3 +21,10 @@ syntax match   jsConstant           /\<\u\+[A-Z0-9_]*\>/ display
 syntax match   jsConstructor        /\<\u\l\+\k*\>/ display
 
 syntax cluster jsExpression add=jsConstant,jsConstructor,jsVar,jsNew,jsSelf,jsTrue,jsFalse,jsWith,jsThrow,jsSource,jsCommonJS,jsTryCatchFinally
+
+
+" Default highlighting links
+
+hi link jsConstant Constant
+hi link jsCommonJS Statement
+
