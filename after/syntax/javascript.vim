@@ -10,10 +10,9 @@ syntax sync fromstart
 syntax keyword jsVar             var
 syntax keyword jsNew             new
 syntax keyword jsSelf            self
-syntax keyword jsWith            with
 syntax keyword jsThrow           throw
-syntax keyword jsCommonJS        require module exports
 syntax keyword jsTryCatchFinally try catch finally
+syntax keyword jsCommonJS        require module exports
 
 " Constant (CONST_NAME)
 syntax match   jsConstant           /\<\u\+[A-Z0-9_]*\>/ display
