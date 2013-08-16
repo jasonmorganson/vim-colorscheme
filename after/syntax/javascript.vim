@@ -14,7 +14,6 @@ syntax keyword jsTrue            true
 syntax keyword jsFalse           false
 syntax keyword jsWith            with
 syntax keyword jsThrow           throw
-syntax keyword jsSource          import export
 syntax keyword jsCommonJS        require module exports
 syntax keyword jsTryCatchFinally try catch finally
 
