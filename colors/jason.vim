@@ -89,10 +89,10 @@ hi WildMenu        ctermfg=81  ctermbg=16  guifg=#66D9EF guibg=#000000
 
 " Base {
 hi Normal          ctermfg=252 ctermbg=233 guifg=#F8F8F2 guibg=#1B1D1E
-hi NonText         ctermfg=250 ctermbg=234 guifg=#BCBCBC guibg=#232526
-hi Underlined      ctermfg=244             guifg=#808080               cterm=underline gui=underline
+hi link NonText Grey74
+hi link Underlined Grey50Underlined
 hi SpecialKey      ctermfg=245             guifg=#888A85               gui=italic
-hi Muted ctermfg=240 guifg=#585858
+hi link Muted Grey35
 hi Emphasised ctermfg=161 guifg=#F92672 cterm=bold gui=bold
 hi link Noise Muted
 " }
@@ -106,25 +106,25 @@ hi SpellRare       ctermfg=160                                         guisp=#FF
 
 " Standard {
 
-hi Character       ctermfg=144             guifg=#E6DB74
+hi link Character NavajoWhite3
 hi link String Character
 
-
-hi Boolean         ctermfg=135             guifg=#AE81FF
-hi link Number Boolean
-hi link Float Boolean
+hi! link Constant Wisteria
+hi link Boolean Constant
+hi link Number Constant
+hi link Float Constant
 
 hi! link Type PeterRiver
 hi link Typedef Type
 hi link Define Type
 
-hi Comment         ctermfg=59              guifg=#465457
-hi! link Constant Wisteria
+hi! link Comment Grey37
 hi Keyword         ctermfg=161             guifg=#F92672               cterm=bold gui=bold
+hi Operator        ctermfg=161             guifg=#F92672
+
 hi link Function BelizeHole
 hi! link Statement Emerald
 
-hi Operator        ctermfg=161             guifg=#F92672
 hi Delimiter       ctermfg=241             guifg=#8F8F8F
 hi Identifier      ctermfg=208             guifg=#FD971F
 hi link Conditional Nephritis
@@ -194,12 +194,8 @@ hi link DiffRemoved DiffDelete
 
 
 
-hi link jsConstant Constant
 
-hi link jsWith Error
-hi link jsBadComparision Error
-
-hi link jsVar StorageClass
+hi link jsVar Orange
 hi link jsNew SunFlower
 hi link jsGlobalObjects Amethyst
 hi link jsConstructor Carrot
@@ -213,11 +209,12 @@ hi link jsDotNotation Noise
 hi link jsFuncParens Noise
 hi link jsFuncArgCommas Noise
 
-hi jsThrow    ctermfg=160 ctermbg=NONE guifg=#FF0000 guibg=NONE cterm=bold gui=bold
+hi jsThrow      ctermfg=160 ctermbg=NONE guifg=#FF0000 guibg=NONE cterm=bold gui=bold
+hi jsExceptions ctermfg=160 ctermbg=NONE guifg=#FF0000 guibg=NONE
+hi link jsTryCatchFinally Alizarin
 
-hi jsAssignment   guifg=#ffd787 guibg=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
+hi jsAssignment ctermfg=222 guifg=#ffd787
 
-hi jsTryCatchFinally guifg=#ff5f5f guibg=NONE gui=NONE ctermfg=203 ctermbg=NONE cterm=NONE
 
 
 " }
