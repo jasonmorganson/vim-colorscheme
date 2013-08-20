@@ -98,10 +98,10 @@ hi link Noise Muted
 " }
 
 " Spelling {
-hi SpellBad        ctermfg=160                                         guisp=#FF0000 cterm=underline gui=undercurl
-hi SpellCap        ctermfg=160                                         guisp=#7070F0 cterm=underline gui=undercurl
-hi SpellLocal      ctermfg=160                                         guisp=#70F0F0 cterm=underline gui=undercurl
-hi SpellRare       ctermfg=160                                         guisp=#FFFFFF cterm=underline gui=undercurl
+hi SpellBad        ctermfg=160 ctermbg=none                            guisp=#FF0000 cterm=underline gui=undercurl
+hi SpellCap        ctermfg=160 ctermbg=none                            guisp=#7070F0 cterm=underline gui=undercurl
+hi SpellLocal      ctermfg=160 ctermbg=none                            guisp=#70F0F0 cterm=underline gui=undercurl
+hi SpellRare       ctermfg=160 ctermbg=none                            guisp=#FFFFFF cterm=underline gui=undercurl
 " }
 
 " Standard {
