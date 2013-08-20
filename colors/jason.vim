@@ -43,8 +43,8 @@ hi VisualNOS                   ctermbg=238               guibg=#403D3D
 " Cursor {
 hi Cursor          ctermfg=16  ctermbg=253 guifg=#000000 guibg=#F8F8F0
 hi CursorLine                  ctermbg=234               guibg=#293739 cterm=none
-hi CursorLineNr                ctermbg=234               guibg=#293739 cterm=none
-hi CursorColumn                ctermbg=234               guibg=#293739
+hi link CursorLineNr CursorLine
+hi link CursorColumn CursorLine
 " }
 " Search {
 hi Search          ctermfg=253 ctermbg=66  guifg=#FFFFFF guibg=#455354
