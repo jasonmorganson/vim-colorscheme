@@ -174,6 +174,7 @@ hi link DiffRemoved DiffDelete
 "htmlItalic
 "htmlEndTag
 "htmlTag
+hi link htmlEndTag htmlTag
 " }
 
 " CSS {
