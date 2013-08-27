@@ -7,7 +7,6 @@
 
 syntax sync fromstart
 
-syntax keyword jsVar             var
 syntax keyword jsNew             new
 syntax keyword jsSelf            self
 syntax keyword jsThrow           throw

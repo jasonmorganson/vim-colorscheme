@@ -195,7 +195,6 @@ hi link DiffRemoved DiffDelete
 
 
 
-hi link jsVar Orange
 hi link jsNew SunFlower
 hi link jsGlobalObjects Amethyst
 hi link jsConstructor Carrot
