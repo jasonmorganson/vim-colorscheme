@@ -7,6 +7,14 @@
 
 syntax sync fromstart
 
+" These are here to override the conceal settings in vim-javascript
+syntax keyword jsNull            null
+syntax keyword jsThis            this
+syntax keyword jsReturn          return
+syntax keyword jsUndefined       undefined
+syntax keyword jsNan             NaN
+
+" These create more specificity than vim-javascript provides
 syntax keyword jsNew             new
 syntax keyword jsSelf            self
 syntax keyword jsThrow           throw
