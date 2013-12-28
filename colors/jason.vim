@@ -139,7 +139,7 @@ hi Label           ctermfg=229             guifg=#E6DB74               cterm=non
 hi Macro           ctermfg=193             guifg=#C4BE89               gui=italic
 
 hi PreCondit       ctermfg=118             guifg=#A6E22E               cterm=bold gui=bold
-hi PreProc         ctermfg=118             guifg=#A6E22E
+hi! link PreProc Turquoise
 
 hi link StorageClass Orange
 hi Structure       ctermfg=81              guifg=#66D9EF
