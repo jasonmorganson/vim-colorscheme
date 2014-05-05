@@ -51,12 +51,12 @@ hi Search          ctermfg=253 ctermbg=66  guifg=#FFFFFF guibg=#455354
 hi IncSearch       ctermfg=193 ctermbg=16  guifg=#C4BE89 guibg=#000000
 " }
 " Folds {
-hi Folded          ctermfg=67  ctermbg=16  guifg=#465457 guibg=#000000
-hi FoldColumn      ctermfg=67  ctermbg=233 guifg=#465457 guibg=#000000
+hi Folded          ctermfg=67  ctermbg=233 guifg=#465457 guibg=#1B1D1E
+hi FoldColumn      ctermfg=67  ctermbg=233 guifg=#465457 guibg=#1B1D1E
 " }
 " Columns {
 hi ColorColumn                 ctermbg=160
-hi SignColumn      ctermfg=118 ctermbg=233 guifg=#A6E22E guibg=#232526
+hi SignColumn      ctermfg=118 ctermbg=233 guifg=#A6E22E guibg=#1B1D1E
 " Marks column {
 hi SpecialChar     ctermfg=161             guifg=#F92672               cterm=bold gui=bold
 hi SpecialComment  ctermfg=245             guifg=#465457               cterm=bold gui=bold
@@ -157,16 +157,28 @@ hi Exception       ctermfg=118             guifg=#A6E22E               gui=bold
 hi Ignore          ctermfg=244 ctermbg=232 guifg=#808080 guibg=bg
 " }
 
+" Error highlighting {
+hi SyntasticErrorSign   ctermfg=1   ctermbg=233 guifg=#C0392B guibg=#1B1D1E cterm=bold gui=bold
+hi SyntasticErrorLine   ctermfg=1               guisp=#C0392B               cterm=underline gui=undercurl
+hi SyntasticWarningSign ctermfg=178 ctermbg=233 guifg=#F1C40F guibg=#1B1D1E cterm=bold gui=bold
+hi SyntasticWarningLine ctermfg=178             guisp=#F1C40F               cterm=underline gui=undercurl
+" }
+
 " Diff highlighting {
-hi DiffAdd         ctermfg=2   ctermbg=233               guibg=#13354A cterm=bold
-hi DiffChange      ctermfg=178 ctermbg=233 guifg=#89807D guibg=#4C4745
-hi DiffDelete      ctermfg=1   ctermbg=233 guifg=#960050 guibg=#1E0010 cterm=bold
+hi DiffAdd         ctermfg=2   ctermbg=233 guifg=#00CC33 guibg=#1B1D1E cterm=bold gui=bold
+hi DiffChange      ctermfg=178 ctermbg=233 guifg=#F39C12 guibg=#1B1D1E cterm=bold gui=bold
+hi DiffDelete      ctermfg=1   ctermbg=233 guifg=#FF0000 guibg=#1B1D1E cterm=bold gui=bold
 hi DiffText                    ctermbg=102 guibg=#4C4745               cterm=italic,bold gui=italic,bold
 hi link DiffAdded DiffAdd
 hi link DiffFile DiffText
 hi link DiffNewFile DiffFile
 hi link DiffLine DiffText
 hi link DiffRemoved DiffDelete
+
+hi SignifyLineAdd    ctermfg=2 guifg=#00CC33
+hi SignifyLineChange ctermfg=178 guifg=#e67e22
+hi SignifyLineDelete ctermbg=1 guibg=#FF0000
+
 " }
 
 " HTML {
