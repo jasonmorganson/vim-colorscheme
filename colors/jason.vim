@@ -166,14 +166,14 @@ hi SyntasticWarningLine ctermfg=178             guisp=#F1C40F               cter
 
 " Diff highlighting {
 hi DiffAdd         ctermfg=2   ctermbg=233 guifg=#00CC33 guibg=#1B1D1E cterm=bold gui=bold
-hi DiffChange      ctermfg=178 ctermbg=233 guifg=#F39C12 guibg=#1B1D1E cterm=bold gui=bold
+hi DiffChange      ctermfg=178 ctermbg=233 guifg=#E67E22 guibg=#1B1D1E cterm=bold gui=bold
 hi DiffDelete      ctermfg=1   ctermbg=233 guifg=#FF0000 guibg=#1B1D1E cterm=bold gui=bold
-hi DiffText                    ctermbg=102 guibg=#4C4745               cterm=italic,bold gui=italic,bold
+hi DiffText                    ctermbg=233 guifg=#F39C12 guibg=#1B1D1E cterm=italic,bold gui=italic,bold
+hi DiffLine                    ctermbg=233               guibg=#1B1D1E cterm=italic,bold gui=italic,bold
 hi link DiffAdded DiffAdd
+hi link DiffRemoved DiffDelete
 hi link DiffFile DiffText
 hi link DiffNewFile DiffFile
-hi link DiffLine DiffText
-hi link DiffRemoved DiffDelete
 
 hi SignifyLineAdd    ctermfg=2 guifg=#00CC33
 hi SignifyLineChange ctermfg=178 guifg=#e67e22
