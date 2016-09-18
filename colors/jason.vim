@@ -214,7 +214,6 @@ hi link jsConstructor Carrot
 hi link jsFuncArgs GreenSea
 
 hi link jsThis Emphasised
-hi link jsSelf Emphasised
 
 hi link jsPrototype Noise
 hi link jsDotNotation Noise

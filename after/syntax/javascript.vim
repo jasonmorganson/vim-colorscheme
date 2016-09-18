@@ -16,7 +16,6 @@ syntax keyword jsNan             NaN
 
 " These create more specificity than vim-javascript provides
 syntax keyword jsNew             new
-syntax keyword jsSelf            self
 syntax keyword jsThrow           throw
 syntax keyword jsTryCatchFinally try catch finally
 syntax keyword jsCommonJS        require module exports
