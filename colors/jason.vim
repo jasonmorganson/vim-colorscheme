@@ -120,7 +120,7 @@ hi link Define Type
 hi link Structure Type
 
 hi! link Comment Grey37
-hi Keyword         ctermfg=161             guifg=#F92672               cterm=bold gui=bold
+hi link Keyword Emerald
 hi Operator        ctermfg=161             guifg=#F92672
 
 hi link Function BelizeHole
