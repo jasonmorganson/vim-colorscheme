@@ -117,6 +117,7 @@ hi link Float Constant
 hi! link Type PeterRiver
 hi link Typedef Type
 hi link Define Type
+hi link Structure Type
 
 hi! link Comment Grey37
 hi Keyword         ctermfg=161             guifg=#F92672               cterm=bold gui=bold
@@ -142,7 +143,6 @@ hi PreCondit       ctermfg=118             guifg=#A6E22E               cterm=bol
 hi! link PreProc Turquoise
 
 hi link StorageClass Orange
-hi Structure       ctermfg=81              guifg=#66D9EF
 hi Tag             ctermfg=161             guifg=#F92672               gui=italic
 hi Todo            ctermfg=231 ctermbg=232 guifg=#FFFFFF guibg=bg      cterm=bold gui=bold
 
