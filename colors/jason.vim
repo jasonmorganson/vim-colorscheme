@@ -213,27 +213,16 @@ hi link cssForms Wisteria
 " JavaScript {
 
 
-
-
 hi link jsNew SunFlower
-hi link jsGlobalObjects Amethyst
-hi link jsConstructor Carrot
-hi link jsFuncArgs GreenSea
-
 hi link jsThis Emphasised
-
 hi link jsPrototype Noise
-hi link jsDotNotation Noise
-hi link jsFuncParens Noise
+hi link jsCommonJs Keyword
+hi link jsFuncArgs GreenSea
+hi link jsTemplateVar Normal
 hi link jsFuncArgCommas Noise
 
-hi jsThrow      ctermfg=160 ctermbg=NONE guifg=#FF0000 guibg=NONE cterm=bold gui=bold
-hi jsExceptions ctermfg=160 ctermbg=NONE guifg=#FF0000 guibg=NONE
-hi link jsTryCatchFinally Alizarin
 
-hi jsAssignment ctermfg=222 guifg=#ffd787
-
-
+" }
 
 " }
 
