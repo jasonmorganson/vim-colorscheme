@@ -197,6 +197,9 @@ hi link htmlEndTag htmlTag
 "cssBraces
 "cssClassName
 "cssColor
+hi link cssId PeterRiver
+hi link cssClass BelizeHole
+hi link cssForms Wisteria
 " }
 
 " SASS {
