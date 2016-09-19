@@ -224,6 +224,33 @@ hi link jsFuncArgCommas Noise
 
 " }
 
+" Coffeescript {
+
+hi link coffeeAt Emphasised
+hi link coffeeNew SunFlower
+hi link coffeeThis Emphasised
+hi link coffeeKeyword Keyword
+hi link coffeeSpecialVar Wisteria
+hi link coffeeSpecialIdent Pomegranate
+hi link coffeePrivateIdent Orange
+hi link coffeeObject Carrot
+
+hi link coffeeObjectLabelColon Normal
+
+hi link coffeeCurly Noise
+hi link coffeeParen Noise
+hi link coffeeColon Noise
+hi link coffeeNoise Noise
+hi link coffeeBracket Noise
+hi link coffeeDotAccess Noise
+hi link coffeeSpecialOp Noise
+hi link coffeeNonOperators Noise
+
+hi link coffeeObjAssign Orange
+
+hi link jQuery Wisteria
+hi link BrowserVariables PreCondit
+hi link BrowserWindow BrowserVariables
 " }
 
 " Ruby {
