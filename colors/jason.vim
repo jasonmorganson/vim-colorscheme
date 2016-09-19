@@ -144,7 +144,7 @@ hi! link PreProc Turquoise
 
 hi link StorageClass Orange
 hi Tag             ctermfg=161             guifg=#F92672               gui=italic
-hi Todo            ctermfg=231 ctermbg=232 guifg=#FFFFFF guibg=bg      cterm=bold gui=bold
+hi Todo            ctermfg=233 ctermbg=252 guifg=#1B1D1E guibg=F8F8F2  cterm=bold gui=bold
 
 hi Conceal                     ctermbg=NONE              guibg=NONE
 
