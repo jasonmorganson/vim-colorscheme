@@ -153,7 +153,7 @@ hi Conceal                     ctermbg=NONE              guibg=NONE
 " Debug {
 hi Debug           ctermfg=255             guifg=#BCA3A3               cterm=bold gui=bold
 hi Error           ctermfg=219 ctermbg=89  guifg=#960050 guibg=#1E0010
-hi Exception       ctermfg=118             guifg=#A6E22E               gui=bold
+hi Exception       ctermfg=160             guifg=#FF0000               cterm=bold gui=bold
 hi Ignore          ctermfg=244 ctermbg=232 guifg=#808080 guibg=bg
 " }
 
