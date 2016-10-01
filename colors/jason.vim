@@ -185,12 +185,13 @@ hi SignifyLineDelete ctermbg=1 guibg=#FF0000
 
 " }
 
-" HTML {
+" HTML/XML {
 "htmlBold
 "htmlItalic
 "htmlEndTag
 "htmlTag
 hi link htmlEndTag htmlTag
+hi link xmlEndTag xmlTag
 " }
 
 " CSS {
