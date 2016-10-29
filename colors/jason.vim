@@ -39,6 +39,7 @@ hi VertSplit       ctermfg=244 ctermbg=232 guifg=#808080 guibg=#080808 cterm=bol
 " Visual {
 hi Visual                      ctermbg=235               guibg=#403D3D
 hi VisualNOS                   ctermbg=238               guibg=#403D3D
+hi EndOfBuffer     ctermfg=233 ctermbg=233 guifg=#1B1D1E guibg=#1B1D1E
 " }
 " Cursor {
 hi Cursor          ctermfg=16  ctermbg=253 guifg=#000000 guibg=#F8F8F0
