@@ -192,6 +192,7 @@ hi SignifyLineDelete ctermbg=1 guibg=#FF0000
 "htmlTag
 hi link htmlEndTag htmlTag
 hi link xmlEndTag xmlTag
+hi link xmlEqual Operator
 " }
 
 " CSS {
