@@ -79,11 +79,11 @@ hi WarningMsg      ctermfg=231 ctermbg=238 guifg=#FFFFFF guibg=#333333 cterm=bol
 hi ErrorMsg        ctermfg=199 ctermbg=16  guifg=#F92672 guibg=#232526 cterm=bold gui=bold
 " }
 " Completion menu {
-hi Pmenu           ctermfg=81  ctermbg=16  guifg=#66D9EF guibg=#000000
-hi PmenuSel                    ctermbg=244               guibg=#808080
-hi PmenuSbar                   ctermbg=232               guibg=#080808
-hi PmenuThumb      ctermfg=81              guifg=#66D9EF
-hi WildMenu        ctermfg=81  ctermbg=16  guifg=#66D9EF guibg=#000000
+hi Pmenu           ctermfg=252 ctermbg=16  guifg=#F8F8F2 guibg=#000000
+hi PmenuSel        ctermfg=255 ctermbg=244 guifg=#FFFFFF guibg=#808080
+hi PmenuSbar       ctermfg=245             guifg=#888A85
+hi PmenuThumb      ctermfg=252             guifg=#F8F8F2
+hi WildMenu        ctermfg=252 ctermbg=16  guifg=#F8F8F2 guibg=#000000
 " }
 " }
 
