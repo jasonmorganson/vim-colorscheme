@@ -44,8 +44,7 @@ hi EndOfBuffer     ctermfg=233 ctermbg=233 guifg=#1B1D1E guibg=#1B1D1E
 " Cursor {
 hi Cursor          ctermfg=16  ctermbg=253 guifg=#000000 guibg=#F8F8F0
 hi CursorLine                  ctermbg=234               guibg=#293739 cterm=none
-hi link CursorLineNr CursorLine
-hi link CursorColumn CursorLine
+hi CursorLineNr                ctermbg=234               guibg=#293739 cterm=none
 " }
 " Search {
 hi Search          ctermfg=253 ctermbg=66  guifg=#FFFFFF guibg=#455354
