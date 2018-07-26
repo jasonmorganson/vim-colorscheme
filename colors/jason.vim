@@ -179,11 +179,9 @@ hi link DiffAdded DiffAdd
 hi link DiffRemoved DiffDelete
 hi link DiffFile DiffText
 hi link DiffNewFile DiffFile
-
-hi SignifyLineAdd    ctermfg=2 guifg=#00CC33
-hi SignifyLineChange ctermfg=178 guifg=#e67e22
-hi SignifyLineDelete ctermbg=1 guibg=#FF0000
-
+hi link SignifyLineAdd DiffAdd
+hi link SignifyLineChange DiffChange
+hi link SignifyLineDelete DiffDelete
 " }
 
 " HTML/XML {
