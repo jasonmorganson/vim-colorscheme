@@ -94,8 +94,8 @@ hi link NonText Grey74
 hi link Underlined Grey50Underlined
 "hi SpecialKey      ctermfg=245             guifg=#888A85               gui=italic
 hi link Muted Grey35
-hi Emphasised ctermfg=161 guifg=#F92672 cterm=bold gui=bold
 hi link Noise Muted
+hi link Emphasised PinkBold
 " }
 
 " Spelling {
