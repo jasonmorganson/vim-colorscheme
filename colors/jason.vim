@@ -89,19 +89,20 @@ hi WildMenu        ctermfg=252 ctermbg=16  guifg=#F8F8F2 guibg=#000000
 
 " Base {
 hi Normal          ctermfg=252 ctermbg=233 guifg=#F8F8F2 guibg=#1B1D1E
+"hi link Normal Grey82
 hi link NonText Grey74
 hi link Underlined Grey50Underlined
-hi SpecialKey      ctermfg=245             guifg=#888A85               gui=italic
+"hi SpecialKey      ctermfg=245             guifg=#888A85               gui=italic
 hi link Muted Grey35
 hi Emphasised ctermfg=161 guifg=#F92672 cterm=bold gui=bold
 hi link Noise Muted
 " }
 
 " Spelling {
-hi SpellBad        ctermfg=160 ctermbg=none                            guisp=#FF0000 cterm=underline gui=undercurl
-hi SpellCap        ctermfg=160 ctermbg=none                            guisp=#7070F0 cterm=underline gui=undercurl
-hi SpellLocal      ctermfg=160 ctermbg=none                            guisp=#70F0F0 cterm=underline gui=undercurl
-hi SpellRare       ctermfg=160 ctermbg=none                            guisp=#FFFFFF cterm=underline gui=undercurl
+hi link SpellBad RedUndercurl
+hi link SpellCap SpellBad
+hi link SpellLocal SpellBad
+hi link SpellRare SpellBad
 " }
 
 " Standard {
