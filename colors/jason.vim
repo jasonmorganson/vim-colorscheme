@@ -57,11 +57,6 @@ hi FoldColumn      ctermfg=67  ctermbg=233 guifg=#465457 guibg=#1B1D1E
 " Columns {
 hi ColorColumn                 ctermbg=160
 hi SignColumn      ctermfg=118 ctermbg=233 guifg=#A6E22E guibg=#1B1D1E
-" Marks column {
-hi SpecialChar     ctermfg=161             guifg=#F92672               cterm=bold gui=bold
-hi SpecialComment  ctermfg=245             guifg=#465457               cterm=bold gui=bold
-hi Special         ctermfg=81  ctermbg=232 guifg=#66D9EF guibg=bg      gui=italic
-" }
 " }
 " Indent guides {
 hi IndentGuidesOdd             ctermbg=235
@@ -131,6 +126,11 @@ hi Delimiter       ctermfg=241             guifg=#8F8F8F
 hi Identifier      ctermfg=208             guifg=#FD971F
 hi link Conditional Nephritis
 hi link Repeat Conditional
+
+hi link Special Alizarin
+hi link SpecialChar Special
+hi link SpecialComment Special
+
 " }
 
 " Misc {
