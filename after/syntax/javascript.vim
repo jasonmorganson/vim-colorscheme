@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language:     JavaScript
 " Maintainer:   Jason Morganson <jason@morganson.me>
-" Version:      0.0.1
+" Version:      0.0.2
 " URL:          https://github.com/jasonmorganson/vim-colorscheme/syntax
 "
 
