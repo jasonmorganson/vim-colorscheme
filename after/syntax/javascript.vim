@@ -10,7 +10,6 @@ syntax sync fromstart
 
 " These create more specificity than vim-javascript provides
 syntax keyword jsNew       new
-syntax keyword jsCommonJs  module exports require
 
 " Constant (CONST_NAME)
 "syntax match   jsConstant           /\<\u\+[A-Z0-9_]*\>/ display
