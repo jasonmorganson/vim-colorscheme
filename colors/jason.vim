@@ -17,7 +17,7 @@
 " with extra colors borrowed from mango theme
 " by Josh Perez
 " Updated with FlatUI colors from flatuicolors.com
-
+" Modified to focus in on most important syntax
 
 
 hi clear
