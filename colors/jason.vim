@@ -107,7 +107,7 @@ hi link SpellRare SpellBad
 
 " Standard {
 
-hi link Character NavajoWhite3
+hi link Character Clouds
 hi link String Character
 
 hi! link Constant Wisteria
