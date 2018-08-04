@@ -16,3 +16,7 @@ syntax keyword jsVoid      void
 syntax keyword jsDelete    delete
 syntax keyword jsOf        in of typeof instanceof
 
+" Additional conceal characters for operators
+syntax match jsOperator "<=" conceal cchar=≤
+syntax match jsOperator ">=" conceal cchar=≥
+syntax match jsOperator "!==" conceal cchar=≢
