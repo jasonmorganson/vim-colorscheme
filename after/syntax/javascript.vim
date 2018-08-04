@@ -16,9 +16,3 @@ syntax keyword jsVoid      void
 syntax keyword jsDelete    delete
 syntax keyword jsOf        in of typeof instanceof
 
-" Constant (CONST_NAME)
-"syntax match   jsConstant           /\<\u\+[A-Z0-9_]*\>/ display
-
-" Constructor (CammelCase)
-"syntax match   jsConstructor        /\<\u\l\+\k*\>/ display
-
