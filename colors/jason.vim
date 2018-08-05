@@ -188,10 +188,6 @@ hi link SignifyLineDelete DiffDelete
 
 " HTML/XML {
 hi link htmlStatement Normal
-"htmlBold
-"htmlItalic
-"htmlEndTag
-"htmlTag
 hi link htmlEndTag htmlTag
 hi link xmlEndTag xmlTag
 hi link xmlAttrib Carrot
@@ -199,21 +195,10 @@ hi link xmlEqual Operator
 " }
 
 " CSS {
-"cssBraces
-"cssClassName
-"cssColor
 hi link cssId PeterRiver
 hi link cssClass BelizeHole
 hi link cssForms Wisteria
 hi link cssBraces Noise
-" }
-
-" SASS {
-"sassidChar
-"sassClassChar
-"sassInclude
-"sassMixing
-"sassMixinName
 " }
 
 " JavaScript {
@@ -279,38 +264,6 @@ hi link coffeeObjAssign Orange
 hi link jQuery Wisteria
 hi link BrowserVariables PreCondit
 hi link BrowserWindow BrowserVariables
-" }
-
-" Ruby {
-"rubyAttribute
-"rubyConstant
-"rubyInterpolation
-"rubyInterpolationDelimiter
-"rubyRegexp
-"rubySymbol
-"rubyStringDelimiter
-" }
-
-" PHP {
-"phpMemberSelector
-"phpComparison
-"phpParent
-" }
-
-" Markdown {
-"markdownCode
-"markdownCodeBlock
-"markdownHeadingDelimiter
-" }
-
-" Git highlighting {
-"gitCommitOverflow
-"gitCommitSummary
-" }
-
-" NERDTree {
-"NERDTreeDirSlash
-"NERDTreeExecFile
 " }
 
 " vim-signature {
