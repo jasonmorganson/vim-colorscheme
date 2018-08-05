@@ -224,6 +224,12 @@ hi link jsPrototype Noise
 hi link jsCommonJs Keyword
 hi link jsFuncArgs Carrot
 hi link jsTemplateVar Normal
+
+hi link jsVariableDef Orange
+hi link jsModuleKeyword Orange
+hi link jsClassDefinition Orange
+hi link jsDestructuringBlock Orange
+
 hi link jsFuncArgCommas Noise
 
 
