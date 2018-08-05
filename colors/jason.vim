@@ -211,7 +211,7 @@ hi link jsNull Constant
 hi link jsNew SunFlower
 hi link jsDelete Exception
 hi link jsVoid Constant
-hi link jsFuncArgs Carrot
+hi link jsFuncArgs Silver
 
 hi link jsVariableDef Orange
 hi link jsModuleKeyword Orange
@@ -221,7 +221,7 @@ hi link jsDestructuringBlock Orange
 hi link jsDocTags Asbestos
 hi link jsDocType MidnightBlue
 hi link jsDocTypeNoParam jsDocType
-hi link jsDocParam Concrete
+hi link jsDocParam jsFuncArgs
 
 hi link jsArrowFunction Noise
 hi link jsFuncArgCommas Noise
@@ -234,8 +234,8 @@ hi link typescriptBraces Noise
 hi link typescriptParens Noise
 hi link typescriptEndColons Noise
 
-hi link typescriptDocTags Asbestos
-hi link typescriptDocParam Concrete
+hi link typescriptDocTags jsDocTags
+hi link typescriptDocParam jsDocParam
 " }
 
 " Coffeescript {
