@@ -122,13 +122,13 @@ hi link Keyword Identifier
 hi link Function BelizeHole
 hi! link Statement Keyword
 
-hi Delimiter       ctermfg=241             guifg=#8F8F8F
 hi link Conditional Nephritis
 hi link Repeat Conditional
 
 hi! link Comment WetAsphalt
 hi link Operator Asbestos
 
+hi link Delimiter Normal
 
 hi link Special Alizarin
 hi link SpecialChar Special
