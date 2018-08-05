@@ -100,8 +100,14 @@ hi link SpellRare SpellBad
 
 " Standard {
 
+hi link Delimiter Normal
+
 hi link Character Clouds
 hi link String Character
+
+hi link Operator Asbestos
+
+hi! link Comment WetAsphalt
 
 hi! link Constant Wisteria
 hi link Boolean Constant
@@ -121,11 +127,6 @@ hi link Function BelizeHole
 
 hi link Conditional Nephritis
 hi link Repeat Conditional
-
-hi! link Comment WetAsphalt
-hi link Operator Asbestos
-
-hi link Delimiter Normal
 
 hi link Special Alizarin
 hi link SpecialKey Special
