@@ -146,7 +146,6 @@ hi Macro           ctermfg=193             guifg=#C4BE89               gui=itali
 hi! link PreProc Pumpkin
 hi! link PreCondit PreProc
 
-hi link StorageClass Orange
 hi Tag             ctermfg=161             guifg=#F92672               gui=italic
 hi Todo            ctermfg=233 ctermbg=252 guifg=#1B1D1E guibg=#F8F8F2  cterm=bold gui=bold
 
