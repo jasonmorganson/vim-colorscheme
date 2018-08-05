@@ -220,6 +220,7 @@ hi link jsDestructuringBlock Orange
 
 hi link jsDocTags Asbestos
 hi link jsDocType MidnightBlue
+hi link jsDocTypeNoParam jsDocType
 hi link jsDocParam Concrete
 
 hi link jsArrowFunction Noise
