@@ -222,7 +222,7 @@ hi link jsNew SunFlower
 hi link jsThis Emphasised
 hi link jsPrototype Noise
 hi link jsCommonJs Keyword
-hi link jsFuncArgs GreenSea
+hi link jsFuncArgs Carrot
 hi link jsTemplateVar Normal
 hi link jsFuncArgCommas Noise
 
