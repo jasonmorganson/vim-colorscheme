@@ -107,6 +107,12 @@ hi link String Character
 
 hi link Operator Asbestos
 
+hi! link Type Concrete
+hi link Typedef Type
+hi link Define Type
+hi link Structure Type
+hi! link Statement Type
+
 hi! link Comment WetAsphalt
 
 hi! link Constant Wisteria
@@ -116,12 +122,7 @@ hi link Number Amethyst
 hi link Float Number
 
 hi! link Identifier PeterRiver
-hi! link Statement Identifier
 hi link Keyword Identifier
-hi! link Type Identifier
-hi link Typedef Identifier
-hi link Define Identifier
-hi link Structure Identifier
 
 hi link Function BelizeHole
 
