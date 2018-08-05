@@ -84,7 +84,6 @@ hi WildMenu        ctermfg=252 ctermbg=16  guifg=#F8F8F2 guibg=#000000
 
 " Base {
 hi Normal          ctermfg=252 ctermbg=233 guifg=#F8F8F2 guibg=#1B1D1E
-"hi link Normal Grey82
 hi link NonText Grey74
 hi link Underlined Grey50Underlined
 hi link Muted Grey35
