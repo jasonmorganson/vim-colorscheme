@@ -232,6 +232,10 @@ hi link jsModuleKeyword Orange
 hi link jsClassDefinition Orange
 hi link jsDestructuringBlock Orange
 
+hi link jsDocTags Asbestos
+hi link jsDocType MidnightBlue
+hi link jsDocParam Concrete
+
 hi link jsFuncArgCommas Noise
 
 
