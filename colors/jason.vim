@@ -87,7 +87,6 @@ hi Normal          ctermfg=252 ctermbg=233 guifg=#F8F8F2 guibg=#1B1D1E
 "hi link Normal Grey82
 hi link NonText Grey74
 hi link Underlined Grey50Underlined
-"hi SpecialKey      ctermfg=245             guifg=#888A85               gui=italic
 hi link Muted Grey35
 hi link Noise Muted
 hi link Emphasised PinkBold
@@ -131,6 +130,7 @@ hi link Operator Asbestos
 hi link Delimiter Normal
 
 hi link Special Alizarin
+hi link SpecialKey Special
 hi link SpecialChar Special
 hi link SpecialComment Special
 
