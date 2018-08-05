@@ -140,7 +140,7 @@ hi link SpecialComment Special
 
 hi MatchParen      ctermfg=161 ctermbg=208 guifg=#000000 guibg=#FD971F cterm=bold gui=bold
 
-hi Label           ctermfg=229             guifg=#E6DB74               cterm=none gui=none
+hi link Label Emerald
 hi Macro           ctermfg=193             guifg=#C4BE89               gui=italic
 
 hi PreCondit       ctermfg=118             guifg=#A6E22E               cterm=bold gui=bold
