@@ -143,8 +143,8 @@ hi MatchParen      ctermfg=161 ctermbg=208 guifg=#000000 guibg=#FD971F cterm=bol
 hi link Label Emerald
 hi Macro           ctermfg=193             guifg=#C4BE89               gui=italic
 
-hi PreCondit       ctermfg=118             guifg=#A6E22E               cterm=bold gui=bold
-hi! link PreProc Turquoise
+hi! link PreProc Pumpkin
+hi! link PreCondit PreProc
 
 hi link StorageClass Orange
 hi Tag             ctermfg=161             guifg=#F92672               gui=italic
