@@ -129,6 +129,12 @@ hi link Function BelizeHole
 hi link Conditional Nephritis
 hi link Repeat Conditional
 
+hi link Label Emerald
+hi link Macro Label
+
+hi! link PreProc Carrot
+hi! link PreCondit PreProc
+
 hi link Special Alizarin
 hi link SpecialKey Special
 hi link SpecialChar Special
@@ -139,12 +145,6 @@ hi link SpecialComment Special
 " Misc {
 
 hi MatchParen      ctermfg=161 ctermbg=208 guifg=#000000 guibg=#FD971F cterm=bold gui=bold
-
-hi link Label Emerald
-hi link Macro Label
-
-hi! link PreProc Carrot
-hi! link PreCondit PreProc
 
 hi Tag             ctermfg=161             guifg=#F92672               gui=italic
 hi Todo            ctermfg=233 ctermbg=252 guifg=#1B1D1E guibg=#F8F8F2  cterm=bold gui=bold
