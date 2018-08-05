@@ -110,7 +110,7 @@ hi link Boolean Constant
 hi link Number Constant
 hi link Float Constant
 
-hi! link Type BelizeHole
+hi! link Type PeterRiver
 hi link Typedef Type
 hi link Define Type
 hi link Structure Type
