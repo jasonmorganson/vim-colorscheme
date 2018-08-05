@@ -110,17 +110,20 @@ hi link Boolean Constant
 hi link Number Constant
 hi link Float Constant
 
-hi! link Type PeterRiver
+
+hi! link Identifier PeterRiver
+
+hi! link Type Identifier
 hi link Typedef Type
 hi link Define Type
 hi link Structure Type
 
 hi! link Comment Grey37
-hi link Keyword Emerald
+hi link Keyword Identifier
 hi Operator        ctermfg=161             guifg=#F92672
 
 hi link Function BelizeHole
-hi! link Statement Emerald
+hi! link Statement Keyword
 
 hi Delimiter       ctermfg=241             guifg=#8F8F8F
 hi Identifier      ctermfg=208             guifg=#FD971F
