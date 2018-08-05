@@ -187,12 +187,14 @@ hi link SignifyLineDelete DiffDelete
 " }
 
 " HTML/XML {
+hi link htmlStatement Normal
 "htmlBold
 "htmlItalic
 "htmlEndTag
 "htmlTag
 hi link htmlEndTag htmlTag
 hi link xmlEndTag xmlTag
+hi link xmlAttrib Carrot
 hi link xmlEqual Operator
 " }
 
