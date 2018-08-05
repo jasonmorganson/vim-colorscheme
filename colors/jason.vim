@@ -107,9 +107,9 @@ hi link String Character
 
 hi! link Constant Wisteria
 hi link Boolean Constant
-hi link Number Constant
-hi link Float Constant
 
+hi link Number Amethyst
+hi link Float Number
 
 hi! link Identifier PeterRiver
 
