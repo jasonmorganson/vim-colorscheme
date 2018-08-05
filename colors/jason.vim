@@ -218,12 +218,14 @@ hi link cssForms Wisteria
 " JavaScript {
 
 
+hi link jsLet Error
+hi link jsVar Error
+hi link jsNull Constant
+" hi link jsOf Turquoise
 hi link jsNew SunFlower
-hi link jsThis Emphasised
-hi link jsPrototype Noise
-hi link jsCommonJs Keyword
+hi link jsDelete Exception
+hi link jsVoid Constant
 hi link jsFuncArgs Carrot
-hi link jsTemplateVar Normal
 
 hi link jsVariableDef Orange
 hi link jsModuleKeyword Orange
