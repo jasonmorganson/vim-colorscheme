@@ -110,15 +110,14 @@ hi link Number Amethyst
 hi link Float Number
 
 hi! link Identifier PeterRiver
-
-hi! link Type Identifier
-hi link Typedef Type
-hi link Define Type
-hi link Structure Type
-
+hi! link Statement Identifier
 hi link Keyword Identifier
+hi! link Type Identifier
+hi link Typedef Identifier
+hi link Define Identifier
+hi link Structure Identifier
+
 hi link Function BelizeHole
-hi! link Statement Keyword
 
 hi link Conditional Nephritis
 hi link Repeat Conditional
