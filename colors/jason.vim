@@ -119,8 +119,6 @@ hi link Define Type
 hi link Structure Type
 
 hi link Keyword Identifier
-hi Operator        ctermfg=161             guifg=#F92672
-
 hi link Function BelizeHole
 hi! link Statement Keyword
 
@@ -129,6 +127,8 @@ hi link Conditional Nephritis
 hi link Repeat Conditional
 
 hi! link Comment WetAsphalt
+hi link Operator Asbestos
+
 
 hi link Special Alizarin
 hi link SpecialChar Special
