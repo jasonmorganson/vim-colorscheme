@@ -118,7 +118,6 @@ hi link Typedef Type
 hi link Define Type
 hi link Structure Type
 
-hi! link Comment Grey37
 hi link Keyword Identifier
 hi Operator        ctermfg=161             guifg=#F92672
 
@@ -128,6 +127,8 @@ hi! link Statement Keyword
 hi Delimiter       ctermfg=241             guifg=#8F8F8F
 hi link Conditional Nephritis
 hi link Repeat Conditional
+
+hi! link Comment WetAsphalt
 
 hi link Special Alizarin
 hi link SpecialChar Special
