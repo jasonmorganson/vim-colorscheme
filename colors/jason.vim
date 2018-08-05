@@ -205,6 +205,7 @@ hi link xmlEqual Operator
 hi link cssId PeterRiver
 hi link cssClass BelizeHole
 hi link cssForms Wisteria
+hi link cssBraces Noise
 " }
 
 " SASS {
@@ -236,12 +237,16 @@ hi link jsDocTags Asbestos
 hi link jsDocType MidnightBlue
 hi link jsDocParam Concrete
 
+hi link jsArrowFunction Noise
 hi link jsFuncArgCommas Noise
 
 " }
 
 " Typescript {
 
+hi link typescriptBraces Noise
+hi link typescriptParens Noise
+hi link typescriptEndColons Noise
 
 hi link typescriptDocTags Asbestos
 hi link typescriptDocParam Concrete
