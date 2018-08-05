@@ -126,7 +126,6 @@ hi link Function BelizeHole
 hi! link Statement Keyword
 
 hi Delimiter       ctermfg=241             guifg=#8F8F8F
-hi Identifier      ctermfg=208             guifg=#FD971F
 hi link Conditional Nephritis
 hi link Repeat Conditional
 
