@@ -312,3 +312,8 @@ hi link BrowserWindow BrowserVariables
 "NERDTreeDirSlash
 "NERDTreeExecFile
 " }
+
+" vim-signature {
+hi SignatureMarkText ctermfg=118 ctermbg=234 guifg=#A6E22E guibg=#1B1D1E
+
+" }
