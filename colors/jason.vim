@@ -238,7 +238,13 @@ hi link jsDocParam Concrete
 
 hi link jsFuncArgCommas Noise
 
+" }
 
+" Typescript {
+
+
+hi link typescriptDocTags Asbestos
+hi link typescriptDocParam Concrete
 " }
 
 " Coffeescript {
