@@ -17,7 +17,7 @@
 " with extra colors borrowed from mango theme
 " by Josh Perez
 " Updated with FlatUI colors from flatuicolors.com
-
+" Modified to focus in on most important syntax
 
 
 hi clear
@@ -57,11 +57,6 @@ hi FoldColumn      ctermfg=67  ctermbg=233 guifg=#465457 guibg=#1B1D1E
 " Columns {
 hi ColorColumn                 ctermbg=160
 hi SignColumn      ctermfg=118 ctermbg=233 guifg=#A6E22E guibg=#1B1D1E
-" Marks column {
-hi SpecialChar     ctermfg=161             guifg=#F92672               cterm=bold gui=bold
-hi SpecialComment  ctermfg=245             guifg=#465457               cterm=bold gui=bold
-hi Special         ctermfg=81  ctermbg=232 guifg=#66D9EF guibg=bg      gui=italic
-" }
 " }
 " Indent guides {
 hi IndentGuidesOdd             ctermbg=235
@@ -91,58 +86,66 @@ hi WildMenu        ctermfg=252 ctermbg=16  guifg=#F8F8F2 guibg=#000000
 hi Normal          ctermfg=252 ctermbg=233 guifg=#F8F8F2 guibg=#1B1D1E
 hi link NonText Grey74
 hi link Underlined Grey50Underlined
-hi SpecialKey      ctermfg=245             guifg=#888A85               gui=italic
 hi link Muted Grey35
-hi Emphasised ctermfg=161 guifg=#F92672 cterm=bold gui=bold
 hi link Noise Muted
+hi link Emphasised PinkBold
 " }
 
 " Spelling {
-hi SpellBad        ctermfg=160 ctermbg=none                            guisp=#FF0000 cterm=underline gui=undercurl
-hi SpellCap        ctermfg=160 ctermbg=none                            guisp=#7070F0 cterm=underline gui=undercurl
-hi SpellLocal      ctermfg=160 ctermbg=none                            guisp=#70F0F0 cterm=underline gui=undercurl
-hi SpellRare       ctermfg=160 ctermbg=none                            guisp=#FFFFFF cterm=underline gui=undercurl
+hi link SpellBad RedUndercurl
+hi link SpellCap SpellBad
+hi link SpellLocal SpellBad
+hi link SpellRare SpellBad
 " }
 
 " Standard {
 
-hi link Character NavajoWhite3
+hi link Delimiter Normal
+
+hi link Character Clouds
 hi link String Character
 
-hi! link Constant Wisteria
-hi link Boolean Constant
-hi link Number Constant
-hi link Float Constant
+hi link Operator Asbestos
 
-hi! link Type PeterRiver
+hi! link Type Concrete
 hi link Typedef Type
 hi link Define Type
 hi link Structure Type
+hi! link Statement Type
 
-hi! link Comment Grey37
-hi link Keyword Emerald
-hi Operator        ctermfg=161             guifg=#F92672
+hi! link Comment WetAsphalt
+
+hi! link Constant Wisteria
+hi link Boolean Constant
+
+hi link Number Amethyst
+hi link Float Number
+
+hi! link Identifier PeterRiver
+hi link Keyword Identifier
 
 hi link Function BelizeHole
-hi! link Statement Emerald
 
-hi Delimiter       ctermfg=241             guifg=#8F8F8F
-hi Identifier      ctermfg=208             guifg=#FD971F
 hi link Conditional Nephritis
 hi link Repeat Conditional
+
+hi link Label Emerald
+hi link Macro Label
+
+hi! link PreProc Carrot
+hi! link PreCondit PreProc
+
+hi link Special Alizarin
+hi link SpecialKey Special
+hi link SpecialChar Special
+hi link SpecialComment Special
+
 " }
 
 " Misc {
 
 hi MatchParen      ctermfg=161 ctermbg=208 guifg=#000000 guibg=#FD971F cterm=bold gui=bold
 
-hi Label           ctermfg=229             guifg=#E6DB74               cterm=none gui=none
-hi Macro           ctermfg=193             guifg=#C4BE89               gui=italic
-
-hi PreCondit       ctermfg=118             guifg=#A6E22E               cterm=bold gui=bold
-hi! link PreProc Turquoise
-
-hi link StorageClass Orange
 hi Tag             ctermfg=161             guifg=#F92672               gui=italic
 hi Todo            ctermfg=233 ctermbg=252 guifg=#1B1D1E guibg=#F8F8F2  cterm=bold gui=bold
 
@@ -178,52 +181,61 @@ hi link DiffAdded DiffAdd
 hi link DiffRemoved DiffDelete
 hi link DiffFile DiffText
 hi link DiffNewFile DiffFile
-
-hi SignifyLineAdd    ctermfg=2 guifg=#00CC33
-hi SignifyLineChange ctermfg=178 guifg=#e67e22
-hi SignifyLineDelete ctermbg=1 guibg=#FF0000
-
+hi link SignifyLineAdd DiffAdd
+hi link SignifyLineChange DiffChange
+hi link SignifyLineDelete DiffDelete
 " }
 
 " HTML/XML {
-"htmlBold
-"htmlItalic
-"htmlEndTag
-"htmlTag
+hi link htmlStatement Normal
 hi link htmlEndTag htmlTag
 hi link xmlEndTag xmlTag
+hi link xmlAttrib Carrot
 hi link xmlEqual Operator
 " }
 
 " CSS {
-"cssBraces
-"cssClassName
-"cssColor
 hi link cssId PeterRiver
 hi link cssClass BelizeHole
 hi link cssForms Wisteria
-" }
-
-" SASS {
-"sassidChar
-"sassClassChar
-"sassInclude
-"sassMixing
-"sassMixinName
+hi link cssBraces Noise
 " }
 
 " JavaScript {
 
 
+hi link jsLet Error
+hi link jsVar Error
+hi link jsNull Constant
+" hi link jsOf Turquoise
 hi link jsNew SunFlower
-hi link jsThis Emphasised
-hi link jsPrototype Noise
-hi link jsCommonJs Keyword
-hi link jsFuncArgs GreenSea
-hi link jsTemplateVar Normal
+hi link jsDelete Exception
+hi link jsVoid Constant
+hi link jsFuncArgs Silver
+
+hi link jsVariableDef Orange
+hi link jsModuleKeyword Orange
+hi link jsClassDefinition Orange
+hi link jsDestructuringBlock Orange
+
+hi link jsDocTags Asbestos
+hi link jsDocType MidnightBlue
+hi link jsDocTypeNoParam jsDocType
+hi link jsDocParam jsFuncArgs
+
+hi link jsArrowFunction Noise
 hi link jsFuncArgCommas Noise
 
+" }
 
+" Typescript {
+
+hi link typescriptBraces Noise
+hi link typescriptParens Noise
+hi link typescriptEndColons Noise
+
+hi link typescriptDocTags jsDocTags
+hi link typescriptDocParam jsDocParam
 " }
 
 " Coffeescript {
@@ -255,34 +267,7 @@ hi link BrowserVariables PreCondit
 hi link BrowserWindow BrowserVariables
 " }
 
-" Ruby {
-"rubyAttribute
-"rubyConstant
-"rubyInterpolation
-"rubyInterpolationDelimiter
-"rubyRegexp
-"rubySymbol
-"rubyStringDelimiter
-" }
+" vim-signature {
+hi SignatureMarkText ctermfg=118 ctermbg=234 guifg=#A6E22E guibg=#1B1D1E
 
-" PHP {
-"phpMemberSelector
-"phpComparison
-"phpParent
-" }
-
-" Markdown {
-"markdownCode
-"markdownCodeBlock
-"markdownHeadingDelimiter
-" }
-
-" Git highlighting {
-"gitCommitOverflow
-"gitCommitSummary
-" }
-
-" NERDTree {
-"NERDTreeDirSlash
-"NERDTreeExecFile
 " }
