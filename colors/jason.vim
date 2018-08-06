@@ -161,14 +161,16 @@ hi Ignore          ctermfg=244 ctermbg=232 guifg=#808080 guibg=bg
 " }
 
 " Error highlighting {
-hi ErrorSign   ctermfg=1   ctermbg=234 guifg=#C0392B guibg=#232526 cterm=bold gui=bold
-hi ErrorLine   ctermfg=1               guisp=#C0392B               cterm=bold gui=bold
-hi WarningSign ctermfg=178 ctermbg=234 guifg=#F1C40F guibg=#232526 cterm=bold gui=bold
-hi WarningLine ctermfg=178             guisp=#F1C40F               cterm=bold gui=bold
-hi link SyntasticErrorSign ErrorSign
-hi link SyntasticErrorLine ErrorLine
-hi link SyntasticWarningSign WarningSign
-hi link SyntasticWarningLine WarningLine
+hi ErrorSign   ctermfg=1               guifg=#C0392B
+hi ErrorLine                           guisp=#C0392B
+hi WarningSign ctermfg=178             guifg=#F1C40F
+hi WarningLine                         guisp=#F1C40F
+hi ALEError     ctermfg=160            guisp=#FF0000 cterm=underline gui=undercurl
+hi ALEWarning   ctermfg=178            guisp=#d7af00 cterm=underline gui=undercurl
+hi link ALEErrorSign ErrorSign
+hi link ALEErrorLine ErrorLine
+hi link ALEWarningSign WarningSign
+hi link ALEWarningLine WarningLine
 " }
 
 " Diff highlighting {
